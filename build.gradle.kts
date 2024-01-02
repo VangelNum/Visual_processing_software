@@ -34,16 +34,16 @@ compose.desktop {
     application {
         mainClass = "MainKt"
         nativeDistributions {
-            targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
+            targetFormats(TargetFormat.Dmg, TargetFormat.Exe, TargetFormat.Deb)
             packageName = "Program_obes_multiplatform"
-            packageVersion = "1.0.0"
+            packageVersion = "1.0.4"
             windows {
                 // a version for all Windows distributables
-                packageVersion = "1.0.0"
+                packageVersion = "1.0.4"
                 // a version only for the msi package
-                msiPackageVersion = "1.0.0"
+                msiPackageVersion = "1.0.4"
                 // a version only for the exe package
-                exePackageVersion = "1.0.0"
+                exePackageVersion = "1.0.4"
             }
         }
     }
